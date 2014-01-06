@@ -903,8 +903,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Battery Info screen. Units shown after a value.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="battery_info_status_charging_dock_usb">(DockUSB)</string>
 
-    <!-- Menu label for reset the battery stats -->
-    <string name="menu_stats_reset">Reset</string>
+    <!-- Menu label for reset the battery stats
+    <string name="menu_stats_reset">Reset</string> -->
 
     <!-- CM Legal
     <string name="cmlicense_title">CyanogenMod Legal</string>

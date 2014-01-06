@@ -58,8 +58,8 @@ public class PowerUsageSummary extends PreferenceFragment {
 
     private static final int MENU_STATS_TYPE = Menu.FIRST;
     private static final int MENU_STATS_REFRESH = Menu.FIRST + 1;
-    private static final int MENU_STATS_RESET = Menu.FIRST + 2;
-    private static final int MENU_HELP = Menu.FIRST + 3;
+    // private static final int MENU_STATS_RESET = Menu.FIRST + 2; 
+    private static final int MENU_HELP = Menu.FIRST + 2;
 
     private PreferenceGroup mAppListGroup;
     private Preference mBatteryStatusPref;
@@ -171,11 +171,11 @@ public class PowerUsageSummary extends PreferenceFragment {
                 .setAlphabeticShortcut('r');
         refresh.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
                 MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-        MenuItem reset = menu.add(0, MENU_STATS_RESET, 0, R.string.menu_stats_reset)
-                .setIcon(R.drawable.ic_menu_delete_holo_dark)
-                .setAlphabeticShortcut('d');
-        reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
-                MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+        //MenuItem reset = menu.add(0, MENU_STATS_RESET, 0, R.string.menu_stats_reset)
+        //        .setIcon(R.drawable.ic_menu_delete_holo_dark)
+        //        .setAlphabeticShortcut('d');
+        //reset.setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
+        //        MenuItem.SHOW_AS_ACTION_WITH_TEXT);
 
         String helpUrl;
         if (!TextUtils.isEmpty(helpUrl = getResources().getString(R.string.help_url_battery))) {
@@ -199,11 +199,11 @@ public class PowerUsageSummary extends PreferenceFragment {
                 mStatsHelper.clearStats();
                 refreshStats();
                 return true;
-            case MENU_STATS_RESET:
-                mStatsHelper.resetStatistics();
-                mStatsHelper.clearStats();
-                refreshStats();
-                return true;
+            //case MENU_STATS_RESET:
+            //    mStatsHelper.resetStatistics();
+            //    mStatsHelper.clearStats();
+            //    refreshStats();
+            //    return true;
             default:
                 return false;
         }
