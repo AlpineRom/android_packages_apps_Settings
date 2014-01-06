@@ -746,7 +746,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="SettingsCMLicenseActivity"
+        <!-- <activity android:name="SettingsCMLicenseActivity"
                 android:label="@string/settings_cmlicense_activity_title"
                 android:theme="@android:style/Theme.Holo.Panel"
                 android:configChanges="orientation|screenSize">
@@ -754,7 +754,7 @@
                 <action android:name="android.settings.CMLICENSE" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
+        </activity> -->
 
         <activity android:name="SettingsSafetyLegalActivity"
                 android:label="@string/settings_safetylegal_activity_title"
@@ -1768,13 +1768,13 @@
 
         <activity android:name=".ApnEditor" />
 
-        <activity android:name="Settings$AnonymousStatsActivity"
+        <!-- <activity android:name="Settings$AnonymousStatsActivity"
                 android:label="@string/anonymous_statistics_title"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:clearTaskOnLaunch="true">
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.cmstats.AnonymousStats" />
-        </activity>
+        </activity> -->
 
         <activity android:name=".cyanogenmod.ChangeLog" />
 
@@ -1957,7 +1957,7 @@
             </intent-filter>
         </receiver>
 
-        <!-- Anonymous Statistics -->
+        <!-- Anonymous Statistics
         <receiver android:name=".cmstats.ReportingServiceManager"
             android:enabled="true"
             android:exported="false"
@@ -1972,7 +1972,7 @@
             android:enabled="true"
             android:exported="false"
             android:name=".cmstats.ReportingService">
-        </service>
+        </service> -->
 
 
         <!-- Watch for ContactsContract.Profile changes and update the user's photo.  -->

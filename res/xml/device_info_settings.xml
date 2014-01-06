@@ -51,13 +51,13 @@
                     android:targetClass="com.cyanogenmod.updater.UpdatesSettings" />
         </PreferenceScreen>
 
-        <!-- Anonymous statistics - (CMStats) -->
+        <!-- Anonymous statistics - (CMStats)
         <PreferenceScreen
             android:key="cmstats"
             android:title="@string/anonymous_statistics_title"
             android:summary="@string/anonymous_statistics_summary"
             android:fragment="com.android.settings.cmstats.AnonymousStats" >
-        </PreferenceScreen>
+        </PreferenceScreen> -->
 
         <!-- Change Log -->
         <PreferenceScreen android:key="changelog"
@@ -89,12 +89,12 @@
                 <intent android:action="android.settings.LICENSE" />
             </PreferenceScreen>
 
-            <!-- CM License information -->
+            <!-- CM License information
             <PreferenceScreen
                     android:key="cmlicense"
                     android:title="@string/cmlicense_title">
                 <intent android:action="android.settings.CMLICENSE" />
-            </PreferenceScreen>
+            </PreferenceScreen> -->
 
             <!-- Terms and conditions -->
             <PreferenceScreen
