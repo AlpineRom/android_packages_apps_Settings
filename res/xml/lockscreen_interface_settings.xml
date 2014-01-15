@@ -23,12 +23,6 @@
         android:key="lockscreen_general_category" >
 
         <PreferenceScreen
-            android:key="active_display"
-            android:fragment="com.android.settings.alpinerom.ActiveDisplaySettings"
-            android:title="@string/ad_settings_title"
-            android:summary="@string/ad_settings_summary" />
-
-        <PreferenceScreen
             android:key="screen_security"
             android:fragment="com.android.settings.SecuritySettings"
             android:title="@string/screen_security_category"
