@@ -309,6 +309,7 @@
 
     <!-- Quick settings panel  -->
     <string name="quick_settings_panel_title">Quick Settings panel</string>
+    <string name="quick_settings_panel_title_summary">Customize the default Quick Settings panel</string>
     <string name="title_static_tiles">Static tiles</string>
     <string name="tile_picker_title">Tiles and layout</string>
     <string name="tile_picker_summary">View, select or change the layout of the displayed tiles</string>
@@ -693,6 +694,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Notification Drawer  -->
     <string name="notification_drawer_title">Notification drawer</string>
+    <string name="notification_drawer_title_summary">Customize the default Notification drawer</string>
     <string name="notification_drawer_collapse_on_dismiss_title">Auto close behavior</string>
     <string name="collapse_on_dismiss_never">Disabled</string>
     <string name="collapse_on_dismiss_if_empty">If none remaining</string>
@@ -895,6 +897,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_title_summary">Customize the default Status bar</string>
     <string name="status_bar_show_clock_title">Show clock</string>
     <string name="status_bar_battery_title">Battery status style</string>
     <string name="status_bar_style_icon_portrait">Icon portrait</string>
