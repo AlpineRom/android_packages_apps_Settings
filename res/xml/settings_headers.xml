@@ -97,7 +97,7 @@
         android:title="@string/lock_screen_title"
         android:icon="@drawable/ic_settings_lockscreen" />
 
-    <!-- Themes -->
+    <!-- Themes - Hide this until tested with TRDS
     <header
         android:id="@+id/themes_settings"
         android:icon="@drawable/ic_settings_themes"
@@ -106,7 +106,7 @@
             android:action="android.intent.action.MAIN"
             android:targetPackage="com.tmobile.themechooser"
             android:targetClass="com.tmobile.themechooser.ThemeChooser" />
-    </header>
+    </header>  -->
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
