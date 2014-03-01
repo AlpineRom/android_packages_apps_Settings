@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2012-2013 The CyanogenMod Project
+     Copyright (C) 2012-2014 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -507,7 +507,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="performance_settings_title">Performance</string>
 
     <!-- Performance Settings : Warning dialog -->
-    <string name="performance_settings_warning_title">Proceed with Caution</string>
+    <string name="performance_settings_warning_title">Proceed with caution</string>
     <string name="performance_settings_warning">These settings are included for experimentation and any changes made to them have the potential to cause instability, crashes, data loss or hardware failures.\n\nWe request you do not file bug reports if any of these settings have been changed from the defaults.</string>
 
     <!-- Performance Settings : Set on boot option -->
@@ -561,7 +561,7 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
 
     <!-- Change Log strings -->
     <string name="changelog_title">View changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
+    <string name="changelog_loading">Loading changelog\u2026</string>
     <string name="changelog_error">Unable to load changelog</string>
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
@@ -642,7 +642,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Hardware tunables - Gamma calibration -->
     <string name="gamma_tuning_title_head">Gamma calibration</string>
     <string name="gamma_tuning_summary_head">Tweak gamma values</string>
-    <string name="gamma_tuning_control_set_header">Group <xliff:g id="index">%d</xliff:g></string> <!-- used if no name provided by overlay -->
+    <!-- Used if no name provided by overlay -->
+    <string name="gamma_tuning_control_set_header">Group <xliff:g id="index">%d</xliff:g></string>
     <string name="gamma_tuning_contrast">Contrast</string>
     <string name="gamma_tuning_brightness">Brightness</string>
     <string name="gamma_tuning_saturation">Saturation</string>
@@ -993,16 +994,14 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
-    <plurals name="app_ops_count">
-        <item quantity="one">once</item>
-        <item quantity="other">%d times</item>
-    </plurals>
-
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">Show user apps</string>
     <string name="app_ops_show_system_apps">Show built-in apps</string>
     <string name="app_ops_reset_counters">Reset allow/deny counters</string>
     <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
-    <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset AppOps counters ?</string>
+    <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset AppOps counters?</string>
 
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Block gesture touch events</string>
+    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
 </resources>
