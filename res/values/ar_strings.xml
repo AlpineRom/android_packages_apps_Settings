@@ -83,4 +83,8 @@
     <!-- QS Power menu -->
     <string name="title_tile_power">Power Menu</string>      
 
+    <!-- QuickSettings fliptiles -->
+    <string name="flip_qs_tiles_title">Flip tiles</string>
+    <string name="flip_qs_tiles_summary">Flips the tiles on touch</string>
+
 </resources>
