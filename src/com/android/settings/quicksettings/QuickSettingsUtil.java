@@ -35,6 +35,7 @@ import static com.android.internal.util.cm.QSConstants.TILE_NFC;
 import static com.android.internal.util.cm.QSConstants.TILE_POWER;
 import static com.android.internal.util.cm.QSConstants.TILE_PROFILE;
 import static com.android.internal.util.cm.QSConstants.TILE_PERFORMANCE_PROFILE;
+import static com.android.internal.util.cm.QSConstants.TILE_QUICKRECORD;
 import static com.android.internal.util.cm.QSConstants.TILE_QUIETHOURS;
 import static com.android.internal.util.cm.QSConstants.TILE_RINGER;
 import static com.android.internal.util.cm.QSConstants.TILE_SCREENTIMEOUT;
@@ -157,6 +158,9 @@ public class QuickSettingsUtil {
         registerTile(new QuickSettingsUtil.TileInfo(
                 TILE_POWER, R.string.title_tile_power,
                 "com.android.systemui:drawable/ic_qs_powermenu"));    
+        registerTile(new QuickSettingsUtil.TileInfo(
+                TILE_QUICKRECORD, R.string.title_tile_quick_record,
+                "com.android.systemui:drawable/ic_qs_quickrecord"));
     }
 
     private static void registerTile(QuickSettingsUtil.TileInfo info) {
