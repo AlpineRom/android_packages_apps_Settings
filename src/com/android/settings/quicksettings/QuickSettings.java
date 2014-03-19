@@ -118,7 +118,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mFlipQsTiles = (CheckBoxPreference) findPreference(PREF_FLIP_QS_TILES);
         mFlipQsTiles.setChecked(Settings.System.getInt(resolver,
-                Settings.System.QUICK_SETTINGS_TILES_FLIP, 0) == 1);
+                Settings.System.QUICK_SETTINGS_TILES_FLIP, 1) == 1);
 
         // Add the network mode preference
         mNetworkMode = (ListPreference) prefSet.findPreference(EXP_NETWORK_MODE);
