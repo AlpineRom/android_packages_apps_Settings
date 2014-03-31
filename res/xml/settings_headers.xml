@@ -80,13 +80,6 @@
         android:fragment="com.android.settings.slim.themes.ThemeSettings"
         android:title="@string/theme_settings_title" />
 
-    <!-- Active display -->
-    <header
-        android:id="@+id/active_display_settings"
-        android:title="@string/ad_settings_title"
-        android:fragment="com.android.settings.alpinerom.ActiveDisplaySettings"
-        android:icon="@drawable/ic_settings_actived" />
-
     <!-- Home launcher -->
     <header
         android:id="@+id/home_settings"
