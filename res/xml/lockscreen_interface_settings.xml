@@ -29,6 +29,12 @@
             android:summary="@string/ad_settings_summary" />
 
         <PreferenceScreen
+            android:id="@+id/lockscreen_notifcation_settings"
+            android:title="@string/lockscreen_notifications"
+            android:fragment="com.android.settings.alpinerom.LockscreenNotifications"
+            android:summary="@string/lockscreen_notifications_summary" />
+
+        <PreferenceScreen
             android:key="screen_security"
             android:fragment="com.android.settings.SecuritySettings"
             android:title="@string/screen_security_category"
@@ -44,11 +50,6 @@
             android:entries="@array/lockscreen_battery_status_entries"
             android:entryValues="@array/lockscreen_battery_status_values"
             android:defaultValue="0" />
-
-        <PreferenceScreen
-            android:title="@string/lockscreen_notifications"
-            android:fragment="com.android.settings.alpinerom.LockscreenNotifications"
-            android:summary="@string/lockscreen_notifications_summary" />
 
         <Preference
             android:fragment="com.android.settings.cyanogenmod.LockscreenTargets"

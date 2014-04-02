@@ -4,11 +4,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
+        android:key="category_general"
         android:title="@string/general" >
-        <CheckBoxPreference
+
+        <SwitchPreference
             android:key="lockscreen_notifications"
             android:title="@string/lockscreen_notifications"
-            android:summary="@string/lockscreen_notifications_summary" />
+            android:summary="@string/lockscreen_notifications_summary"
+            android:defaultValue="false" />
 
         <CheckBoxPreference
             android:key="pocket_mode"
@@ -55,6 +58,7 @@
 
     </PreferenceCategory>
     <PreferenceCategory
+        android:key="category_layout"
         android:title="@string/layout" >
 
         <SeekBarPreference
@@ -71,9 +75,16 @@
             android:dependency="lockscreen_notifications"
             android:summary="@string/notifications_height_summary" />
 
+        <CheckBoxPreference
+            android:key="dynamic_width"
+            android:title="@string/dynamic_width"
+            android:summary="@string/dynamic_width_summary"
+            android:dependency="lockscreen_notifications" />
+
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="notification_color"
-            android:title="@string/notification_color" />
+            android:title="@string/notification_color"
+            android:dependency="lockscreen_notifications" />
 
     </PreferenceCategory>
     <PreferenceCategory
@@ -96,5 +107,6 @@
             android:title="@string/force_expanded_view"
             android:dependency="lockscreen_notifications"
             android:summary="@string/force_expanded_view_summary" />
+
     </PreferenceCategory>
 </PreferenceScreen>
