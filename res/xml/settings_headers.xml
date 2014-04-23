@@ -75,10 +75,10 @@
 
     <!-- Dark Alpine - TRDS 3.0 -->
     <header
-        android:id="@+id/theme_settings"
-        android:icon="@drawable/ic_settings_theme"
-        android:fragment="com.android.settings.slim.themes.ThemeSettings"
-        android:title="@string/theme_settings_title" />
+        android:id="@+id/trds_settings"
+        android:icon="@drawable/ic_settings_trds"
+        android:fragment="com.android.settings.slim.themes.TrdsSettings"
+        android:title="@string/trds_settings_title" />
 
     <!-- Home launcher -->
     <header
