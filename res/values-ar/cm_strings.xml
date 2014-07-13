@@ -75,6 +75,9 @@
   <string name="profile_networkmode_2g">2G</string>
   <string name="profile_networkmode_3g">3G</string>
   <string name="profile_networkmode_2g3g">2G/3G</string>
+  <string name="settings_search_action_bar_button">بحث</string>
+  <string name="settings_search_autocompleteview_hint">إعدادات البحث</string>
+  <string name="settings_search_loading_text">تحميل بحث البيانات\u2026</string>
   <string name="profile_connectionoverrides_title">تجاوز الاتصال</string>
   <string name="profile_volumeoverrides_title">تجاوز الصوت</string>
   <string name="connection_state_disabled">تعطيل</string>
@@ -146,7 +149,7 @@
   <string name="icon_picker_pack_title">حزم الإيقونات</string>
   <string name="display_lights_settings_title">عرض &amp; أضواء</string>
   <string name="lights_category_title">أضواء</string>
-  <string name="notification_pulse_title">ضوء الإعلام</string>
+  <string name="notification_light_title">ضوء الإعلام</string>
   <string name="notification_light_general_title">عام</string>
   <string name="notification_light_applist_title">تطبيقات</string>
   <string name="notification_light_phonelist_title">الهاتف</string>
@@ -158,6 +161,8 @@
   <string name="notification_light_voicemail_title">البريد الصوتي</string>
   <string name="adaptive_backlight_title">الإضاءة التكيفية</string>
   <string name="adaptive_backlight_summary">بشكل حيوي ضبط سطوع الإضاءة الخلفية للعرض لي إطالة عمر البطارية مع الحفاظ على قابليتها للاستخدام</string>
+  <string name="color_enhancement_title">تعزيز اللون</string>
+  <string name="color_enhancement_summary">تعزيز لون العرض بشكل حيوي</string>
   <string name="wake_when_plugged_or_unplugged_title">تنبيه عند التوصيل</string>
   <string name="wake_when_plugged_or_unplugged_summary">تشغيل الشاشة عند الاتصال أو قطع الاتصال مصدر الطاقة</string>
   <string name="screen_animation_off_title">إيقاف تشغيل الشاشة المتحركة</string>
@@ -215,12 +220,22 @@
   <string name="tile_choose_title">اختر أحد بلاطة</string>
   <string name="title_qs_small_icons">إظهار المربعات الصغيرة</string>
   <string name="summary_qs_small_icons">استخدام البلاط الصغرة لزيادة عدد الأعمدة</string>
+  <string name="category_heads_up">الرأس فوق</string>
+  <string name="summary_heads_up_enabled">تمكين الإعلامات المنبثق</string>
+  <string name="summary_heads_up_disabled">تعطيل الإعلامات المنبثقة</string>
+  <string name="add_heads_up_package">إضافة تطبيق</string>
+  <string name="add_heads_up_dnd_summary">لا تظهر الرؤساء فوق في هذه التطبيقات</string>
+  <string name="add_heads_up_blacklist_summary">لا تظهر رؤساء فوق من هذه التطبيقات</string>
+  <string name="heads_up_dnd_title">عدم الإزعاج</string>
+  <string name="heads_up_blacklist_title">القائمة السوداء</string>
+  <string name="heads_up_disabled_notice">للسماح للتطبيقات لعرض إعلامات تفاعلية في نافذة منبثقة على الشاشة، تمكين الرؤساء فوق.</string>
   <string name="title_tile_airplane">نمط الطيران</string>
   <string name="title_tile_battery">إحصائيات البطارية</string>
   <string name="title_tile_bluetooth">Bluetooth</string>
   <string name="title_tile_brightness">السطوع</string>
   <string name="title_tile_camera">الكاميرا</string>
   <string name="title_tile_compass">بوصلة</string>
+  <string name="title_tile_heads_up">الرأس فوق</string>
   <string name="title_tile_sleep">أذهب الى النوم</string>
   <string name="title_tile_gps">نظام تحديد المواقع</string>
   <string name="title_tile_torch">الشعلة</string>
@@ -402,12 +417,12 @@
   <string name="pref_force_highend_gfx_summary">تمكن التأثيرات البصرية الراقية مثل شريط حالة شفافة والملاحة (يتطلب إعادة التشغيل)</string>
   <string name="kill_app_longpress_back">قتل التطبيق بزر الخلف</string>
   <string name="kill_app_longpress_back_summary">قتل التطبيق بالضغط الطويل على زر الخلف</string>
-  <string name="changelog_title">عرض سجل التغيير</string>
+  <string name="changelog_title">سِجل التغييرات</string>
   <string name="changelog_loading">تحميل التغيرات\u2026</string>
   <string name="changelog_error">غير قادر على تحميل التغيير</string>
   <string name="changelog_unknown">غير معروف</string>
   <string name="changelog_version">الإصدار</string>
-  <string name="contributor_cloud_title">عرض المساهمين</string>
+  <string name="contributor_cloud_title">المساهمون</string>
   <string name="cmupdate_settings_title">تحديثات CyanogenMod</string>
   <string name="cmupdate_settings_summary">التحقق من وجود أو عرض أو تثبيت التحديثات المتوفرة</string>
   <string name="advanced_settings_title">متقدم</string>
@@ -571,6 +586,8 @@
   <string name="navigation_bar_reset_toast">شريط التنقل ، إعادة تعيين إلى الافتراضي</string>
   <string name="navigation_bar_menu_editable">قابلة للتغيير</string>
   <string name="navigation_bar_menu_locked">مغلق</string>
+  <string name="navigation_bar_arrow_keys_title">مفاتيح الأسهم عند الكتابة</string>
+  <string name="navigation_bar_arrow_keys_summary">عرض أزرار المؤشر يميناً ويساراً أثناء الكتابة</string>
   <string name="navigation_ring_title">اختصارات شريط التشغيل السريع</string>
   <string name="navring_target_reset_message">حذف شريط الاختصارات واستعادة بشكل افتراضي كافة تنقل المستخدم التي تم إنشاؤها؟</string>
   <string name="navring_target_reset">اختصارات شريط التنقل، إعادة تعيين إلى الافتراضي</string>
@@ -669,6 +686,7 @@
   <string name="status_bar_signal_style_text">نص</string>
   <string name="status_bar_toggle_brightness">التحكم بالسطوع</string>
   <string name="status_bar_toggle_brightness_summary">ضبط السطوع عن طريق الانزلاق عبر شريط الحالة</string>
+  <string name="status_bar_toggle_info">غير متوفر أثناء تمكين السطوع التلقائي</string>
   <string name="status_bar_notif_count_title">إظهار عدد الإشعار</string>
   <string name="status_bar_notif_count_summary">عرض عدد الإعلامات المعلقة</string>
   <string name="status_bar_double_tap_to_sleep_title">الضغط المزدوج النوم</string>
@@ -690,8 +708,8 @@ href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing A
   <string name="battery_info_status_charging_dock_ac">(DockAC)</string>
   <string name="battery_info_status_charging_dock_usb">(DockUSB)</string>
   <string name="menu_stats_reset">إعادة تعيين</string>
-  <string name="cmlicense_title">CyanogenMod قانون</string>
-  <string name="settings_cmlicense_activity_title">CyanogenMod قانون</string>
+  <string name="cmlicense_title">قانون CyanogenMod</string>
+  <string name="settings_cmlicense_activity_title">قانون CyanogenMod</string>
   <string name="settings_cmlicense_activity_unreachable">لم يكن لديك اتصال بيانات. لعرض هذه المعلومات الآن، انتقل إلى %s من أي جهاز كمبيوتر متصل بالإنترنت.</string>
   <string name="stylus_icon_enabled_title">إظهار الرمز عند استخدام النمط</string>
   <string name="stylus_icon_enabled_summary">إظهار رمز المؤشر عند المرور بالماوس أو الرسم  النمط</string>
@@ -857,4 +875,17 @@ href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing A
   <string name="menu_hidden_apps_reset_lock">إعادة تعيين نمط القفل</string>
   <string name="protected_apps">التطبيقات المحمية</string>
   <string name="saving_protected_components">حفظ حالة العنصر\u2026</string>
+  <string name="keep_screen_on_summary_cm">الشاشة لن تغلق اثناء التوصيل</string>
+  <plurals name="show_dev_countdown_cm">
+    <item quantity="zero">أنت الآن <xliff:g id="step_count">%1$d</xliff:g> بخطوة بعيد عن تمكين خيارات المطور.</item>
+    <item quantity="one">أنت الآن في <xliff:g id="step_count">%1$d</xliff:g> خطوات بعيداً عن تمكين خيارات المطور.</item>
+    <item quantity="two">أنت الآن في <xliff:g id="step_count">%1$d</xliff:g> خطوات بعيداً عن تمكين خيارات المطور.</item>
+    <item quantity="few">أنت الآن في <xliff:g id="step_count">%1$d</xliff:g> خطوات بعيداً عن تمكين خيارات المطور.</item>
+    <item quantity="many">أنت الآن في <xliff:g id="step_count">%1$d</xliff:g> خطوات بعيداً عن تمكين خيارات المطور.</item>
+    <item quantity="other">أنت الآن في <xliff:g id="step_count">%1$d</xliff:g> خطوات بعيداً عن تمكين خيارات المطور.</item>
+  </plurals>
+  <string name="show_dev_on_cm">قمت بتمكين خيارات المطورين!</string>
+  <string name="show_dev_already_cm">لا حاجة، قمت بالفعل بتمكين خيارات المطورين.</string>
+  <string name="enable_adb_cm">تصحيح Android</string>
+  <string name="enable_adb_summary_cm">تمكين واجهة تصحيح Android  جسر (adb)</string>
 </resources>
